@@ -1,0 +1,11 @@
+.popup__container {
+    margin: auto;
+    position: relative;
+    width: 40%;
+    height: 200px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
