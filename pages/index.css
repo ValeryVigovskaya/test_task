@@ -1,19 +1,21 @@
-@import url("./vendor/normalize.css");
+@import url("../vendor/normalize.css");
+@import url("./blocks/header/header.css");
+@import url("./blocks/header/__link/header__link.css");
 @import url("./blocks/container-blocks/container-blocks.css");
 @import url("./blocks/list/list.css");
 @import url("./blocks/list/__item/list__item.css");
 @import url("./blocks/list//__item/_close/list__item_close.css");
+@import url("/blocks/list/__item/_left/list__item_left.css");
+@import url("/blocks/list/__item/_right/list__item_right.css");
 
 @import url("./blocks/popup/popup.css");
 @import url("./blocks/popup/_opened/popup_opened.css");
 @import url("./blocks/popup/__container/popup__container.css");
 @import url("./blocks/popup/__title/popup__title.css");
-@import url("./blocks/header/header.css");
-@import url("./blocks/header/__link/header__link.css");
-@import url("./blocks/footer/footer.css");
-@import url("./blocks/footer/__description/footer__description.css");
-@import url("./blocks/list/__item/_left/list__item_left.css");
-@import url("./blocks/list/__item/_right/list__item_right.css");
+
+@import url("/blocks/footer/footer.css");
+@import url("/blocks/footer/__description/footer__description.css");
+
 @import url("./blocks/form/form.css");
 @import url("./blocks/form/__container/form__container.css");
 @import url("./blocks/json-container/json-container.css");
